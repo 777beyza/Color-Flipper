@@ -1,0 +1,35 @@
+body{
+    transition: background-color 0.7s;
+}
+/*renkler arası geçişi verebilmek için yazdık*/
+
+section#colour-display{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 200px auto;
+    /* üst ve alttan 200px boşluk bıraktı. ancak tüm sayfada işlem yaptı. */
+    width: 50%;
+    /* sayfanın yüzde 50 sini kalpar yani tam ortaya geldi. */
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0,0,0, 0.5);
+    padding: 50px;
+    /* alttan üstten doldu verdi ancak kutucuğun içinde işlem yaptı */
+    border-radius: 7px;
+    /* kutunun kenarlarını yuvarladı. */
+}
+
+section#colour-display h1{
+    font-weight: 900;
+}
+
+section#colour-display #new-colour-button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
